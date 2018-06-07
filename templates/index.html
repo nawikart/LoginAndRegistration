@@ -2,4 +2,7 @@
 
 {% block body %}
 
+    <h1>You are not login.</h1>
+    <a href="{{ url_for('authenticate') }}" class="btn btn-primary">Login or Register</a>
+
 {% endblock %}
